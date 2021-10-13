@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <link>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login</title>
+
+         <!-- Standard Favicon -->
+	      <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+
+        <!-- For iPhone 4 Retina display: -->
+	      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+	
+	      <!-- For iPad: -->
+	      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+	
+	      <!-- For iPhone: -->
+	      <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57x57-precomposed.png">	
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&family=Questrial&display=swap" rel="stylesheet">
+        <link href="./css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">        
+                
+    </head>
+    <body style="overflow-x: hidden">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+       
+          <nav class="navbar navbar-expand-lg navbar-light navbar-transparent" id="main-nav">
+            <a class="navbar-brand" href="index.html"><img src="./img/logo-white.png" alt="" width="130"></a>
+            <button class="navbar-toggler" id="main-menu-button" type="button" >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto text-center ml-4">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-search mr-4"></i>Languaje
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item text-secondary" href="#">English</a>
+                    <a class="dropdown-item text-secondary" href="#">Spanish</a>
+                  </div>
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto  menu-main">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="store.html">Store</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login / Register <i class="fa fa-user-circle-o"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Menu Sidenav Responsive -->
+          <div class="sideMenu">
+            <div class="closeButton">
+              <button type="button" class="btn btn-link" id="closeMenu"><i class="fa fa-times text-white"></i></button>
+            </div></br>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="store.html">Store</a></li>
+              <li><a href="contact.html">Contact Us</a></li>              
+              <li><a href="#" id="languaje-link">Languaje <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+              <div class="languaje-section">
+                <li><a href="#">English</a></li>
+                <li><a href="#">Spanish</a></li>
+              </div>
+            </ul>
+          </div>
+          <!-- End Menu Sidenav Responsive -->
+        <section class="main-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 p-0 m-0 wave-1">
+                        <img src="./img/wave-1.png" alt="" class="img-fluid" style="z-index: 10;">
+                        <h2 class="text-white title-pages">Welcome</h2>
+                        <span class="text-white subtitle-pages">TO COMPLETESPEECH</span>
+                    </div>
+                    <div class="col-md-6 p-0 m-0 wave-2">
+                        <img src="./img/wave-2.png" alt="" class="img-fluid" style="z-index: 10;">
+                    </div>
+                </div>
+            </div>
+            <div class="row main-banner">
+                <div class="col-md-12">
+                    <img src="./img/banner-pages.jpg" alt="" class="img-banner">                           
+                  </div>                
+            </div> 
+        </section>
+        <section class="bg-white">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col text-center p-4 text-primary">
+                        <h5>Login to receive exclusive deals and unlock limited access training, support, and curriculum materials!</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <!-- Login Modal -->
+                  <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+                    <div class="container">
+                      <div class="card login-card">
+                        <div class="row no-gutters">
+                          <div class="col-md-5">
+                            <img src="./img/login.jpg" alt="login" class="login-card-img">
+                          </div>
+                          <div class="col-md-7">
+                            <div class="card-body">
+                              <div class="brand-wrapper">
+                                
+                              </div>
+                              <p class="login-card-description">Sign into your account</p>
+                              <form action="#">
+                                  <div class="form-group">
+                                    <label for="email" class="sr-only">Email</label>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email address">
+                                  </div>
+                                  <div class="form-group mb-4">
+                                    <label for="password" class="sr-only">Password</label>
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="***********">
+                                  </div>
+                                  <div class="form-prompt-wrapper">
+                                    <div class="custom-control custom-checkbox login-card-check-box">
+                                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                      <label class="custom-control-label" for="customCheck1">Remember me</label>
+                                    </div><br>          
+                                  <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Login">
+                                </form>
+                                <a href="#!" class="forgot-password-link">Forgot password?</a>
+                                <p class="login-card-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>
+                                <nav class="login-card-footer-nav">
+                                  <a href="#">Terms of use.</a>
+                                  <a href="#">Privacy policy</a>
+                                </nav>
+                            </div>
+                          </div>
+                        </div>
+                      </div>      
+                    </div>
+                  </main>        
+             <!-- End Login Modal -->        
+        <footer>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container-fluid">
+                    <ul class="navbar-nav mx-auto text-center">
+                      <li class="nav-item">
+                        <a class="nav-link"  href="research.html">SmartPalate Research</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="sponsorship.html">Sponsorship Program</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">SLP Near me</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="downloads.html"  >Downloads</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="promotion.html"  >Promotions</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html"  >About Us</a>
+                      </li>
+                    </ul>
+                </div>
+              </nav>
+              <div class="row">
+                  <div class="col-md-3 mx-auto p-3 text-secondary">
+                    <ul class="list-unstyled text-center">
+                        <li>1049 Orem Blvd</li>
+                        <li>Orem, UT 84058</li>
+                        <li>877.710.6031</li>
+                    </ul>
+                  </div> 
+              </div>
+             
+              <nav class="navbar navbar-expand-lg navbar-dark bg-white">
+                <div class="container-fluid">
+                  
+                    <ul class="navbar-nav mx-auto social-nav">
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary social-item mr-3 text-center"  href="#"><i class="fa fa-facebook text-white"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary social-item mr-3 text-center" href="#"><i class="fa fa-instagram fa-1x text-white"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary social-item text-center" href="#"><i class="fa fa-youtube-play fa-1x text-white"></i></a>
+                      </li>
+                    </ul>
+                </div>
+              </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col text-center p-3 text-secondary">
+                        <span>©SmartPalate International, 2021. All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to Top -->
+			<button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+		</footer>
+		<!-- Back to Top -->
+
+        <script src="./js/jquery-3.1.1.min.js" ></script>
+        <script src="./js/bootstrap.min.js" ></script>
+        <script src="./js/bootstrap.bundle.min.js" ></script>
+        <script src="./js/scripts.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        <!-- Back to Top - JS -->
+	<script src="js/backtop.js"></script>
+
+    </body>
+</html>
